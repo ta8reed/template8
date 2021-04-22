@@ -1,0 +1,78 @@
+body
+{
+    background-color: #4F4F4F;
+}
+.navbar
+{
+    background-color: #232930eb !important;
+}
+.carousel-inner img
+{
+width:100%;
+height:100%;
+}
+.carousel-inner h1{
+    text-shadow:1px 1px #000;
+}
+.carousel-inner .carousel-caption
+{
+    background-color: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
+code{
+    font-size:135% !important;
+}
+.myicon
+{
+    width:30px;
+    height:30px;
+    border-radius: 15px;
+    border:1px solid #fff;
+}
+/*FOOTER*/
+footer{
+    margin-top:50px;
+    padding:10px;
+    padding-bottom: 1px;
+    margin-bottom: -25px;
+}
+/*****************************************/
+.fixedimg
+{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.fixedimg1
+{
+    background-image: url('images/fixedimg1.jpg');
+}
+.fixedimg2
+{
+    background-image: url('images/fixedimg2.jpg');
+}
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px #fff,
+                 -10px -10px 20px #fff;
+}
+.navbar li:hover{
+    padding-left:10px;
+}
+.navbar-brand,.navbar li
+{
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a{
+    color:#CCCCFF !important;
+}
+a:hover
+{
+    color:#fff !important;
+}
+.text-light-info
+{
+    color:#69DBEC;
+}

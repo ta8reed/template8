@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Taghreed's Website</title>
+</head>
+<body>
+   
+    <!---START NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" >
+        <a class="navbar-brand" href="#" style="border-right: 1px solid #aaa;padding-right:10px;">
+            <img src="images/nav.jpg" alt="NAV" style="height: 60px;width: 60px;margin-right: 5px;border-radius: 100%;"/>
+            Taghreed'SFlowers
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Courses
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">C sharp</a>
+                <a class="dropdown-item" href="#">Java</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">HTML</a>
+                <a class="dropdown-item" href="#">Css</a>
+                <a class="dropdown-item" href="#">Javascript</a>
+                <a class="dropdown-item" href="#">Bootstrap</a>
+                <a class="dropdown-item" href="#">MySql</a>
+                <a class="dropdown-item" href="#">PHP</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" style="margin-right: 10px;">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+          </form>
+
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="button" data-toggle="modal" data-target="#staticBackdrop">
+                Login</button>
+          </form>
+        </div>
+      </nav>
+    <!--END NAVBAR-->
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!----START CAROUSAL-->
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/flow3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1>HTML</h1>
+                <a href="https://www.youtube.com/playlist?list=PLHIfW1KZRIfnXKjZ9UcT5BVt9x19BlItX" target="_blank" class="btn btn-primary">View This Course</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/flo2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1>Css</h1>
+                <a href="https://www.youtube.com/playlist?list=PLHIfW1KZRIflO6xnz4jpmzzSuo5B63aJf" target="_blank" class="btn btn-primary">View This Course</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/flo1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1>Bootstrap</h1>
+                <a href="https://www.youtube.com/playlist?list=PLHIfW1KZRIfmzBcYnuLNrmdLxYCDzJgQi" target="_blank" class="btn btn-primary">View This Course</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/flo4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1>Montage</h1>
+                <a href="https://www.youtube.com/playlist?list=PLHIfW1KZRIfkUfKKb7Qhi9Ko5AGbLN-py" target="_blank" class="btn btn-primary">View This Course</a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <!---END CAROUSAL-->
+
+
+    <!---START JUMBOTRON-->
+    <div class="jumbotron text-light bg-dark" style="border-radius: 0px;">
+        <h1 class="display-4">Welcome</h1>
+        <p class="lead">Programming without language, and without code.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="https://www.youtube.com/playlist?list=PLHIfW1KZRIflppXbTqLj4qwu1BH6F31zo" target="_blank" role="button">Learn more</a>
+      </div>
+    <!--END JUMBOTRON-->
+
+     <hr class="my-4">
+    <!----STRAT COLLAPSE PROGRAMMING-LANG-->
+    <h1 class="text-center text-light">Programming Language<span class="badge badge-secondary">♥</span></h1>
+
+    <div class="accordion" id="accordionExample">
+        <div class="card text-light bg-dark">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-outline-light  text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Python programming language
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages. The following pages are a useful first step to get on your way writing programs with Python!
+            </div>
+          </div>
+        </div>
+        <div class="card text-light bg-dark">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-outline-light text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Ring programming language
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                The Ring is an innovative and practical general-purpose multi-paradigm language. The supported programming paradigms are imperative, procedural, object-oriented, declarative using nested structures, functional, meta programming and natural programming. The language is portable (Windows, Linux, macOS, Android, WebAssembly, etc.) and can be used to create Console, GUI, Web, Games and Mobile applications. The language is designed to be simple, small, flexible and fast. 
+            </div>
+          </div>
+        </div>
+        <div class="card text-light bg-dark">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-outline-light text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Java Programming Language
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages.
+            </div>
+          </div>
+        </div>
+      </div>
+    <!----END COLLAPSE PROGRAMMING-LANG-->
+
+     
+    <hr class="my-4">
+    <!---TRY PYTHON-->
+    <h1 class="text-center text-light">Python is very easy</h1>
+    <div class="card bg-dark">
+        <div class="card-body">
+            <h4 class="text-light">
+                • Try the code below form
+                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">here</a>
+            </h4>
+            <div class="btn btn-sm btn-outline-light" onclick="mycopy('mypython')">
+                Copy
+            </div>
+            <pre>
+            <code class="text-light-info" id="mypython">
+                name = input('Enter Your Name: '); print('hello' + name)
+            </code>
+        </pre>
+        </div>
+    </div>
+    <!---TRY PYTHON-->
+
+    
+     <hr class="my-4">
+    <!---TRY RING-->
+    <h1 class="text-center text-light">Ring is very easy</h1>
+    <div class="card bg-dark">
+        <div class="card-body">
+            <h4 class="text-light">
+                • Try the code below form
+                <a href="http://ring-lang.sourceforge.net/cgi-bin/ringlang.cgi" target="_blank">here</a>
+            </h4>
+            <div class="btn btn-sm btn-outline-light" onclick="mycopy('myring')">
+                Copy
+            </div>
+            <pre>
+            <code class="text-light-info" id="myring">
+                see 'I love Ring' + nl
+                for x in 'A':'Z' see x+ ',' next
+            </code>
+        </pre>
+        </div>
+    </div>
+
+    <br>
+
+    <!---TRY RING-->
+
+    <div class="fixedimg fixedimg1"></div>
+    <hr class="my-4">
+    <!---BASIC ROCK-->
+    <h1 class="text-center text-light">Basic Rock</h1>
+    <div class="container-fluid">
+        <div class="row justify-content-center" style="background-color: #343a4099;border-radius: 7px; padding:20px;">
+        <!---BASIC ROCK HTML-->
+        <div class="card bg-dark col-lg-3 col-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin:7px;">
+            <a href="https://youtu.be/KRiq7Eqfe-Q" target="_blank">
+            <img src="https://i.ytimg.com/vi/KRiq7Eqfe-Q/mqdefault.jpg" class="card-img-top" alt=""/>
+            </a>
+            <div class="card-body text-light">
+              <h5 class="card-title">Basic Rock Html</h5>
+              <p class="card-text">Basic Rock Html From Zero to Hero</p>
+              <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file.jpg" target="_blank" class="btn btn-primary">Download The Book</a>
+            </div>
+          </div>
+       <!--BASIC ROCK HTML-->
+
+        <!---BASIC ROCK Css-->
+        <div class="card bg-dark col-lg-3 col-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin:7px;">
+            <a href="https://youtu.be/CE4fEEY_Dao" target="_blank">
+            <img src="https://i.ytimg.com/vi/CE4fEEY_Dao/mqdefault.jpg" class="card-img-top" alt=""/>
+            </a>
+            <div class="card-body text-light">
+              <h5 class="card-title">Basic Rock Css</h5>
+              <p class="card-text">Basic Rock Css From Zero to Hero</p>
+              <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file.jpg" target="_blank" class="btn btn-primary">Download The Book</a>
+            </div>
+          </div>
+       <!--BASIC ROCK Css-->
+        <!---BASIC ROCK Svg-->
+        <div class="card bg-dark col-lg-3 col-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin:7px;">
+            <a href="https://youtu.be/1mo782_S1ys" target="_blank">
+            <img src="https://i.ytimg.com/vi/1mo782_S1ys/mqdefault.jpg" class="card-img-top" alt=""/>
+            </a>
+            <div class="card-body text-light">
+              <h5 class="card-title">Basic Rock Svg</h5>
+              <p class="card-text">Basic Rock Svg From Zero to Hero</p>
+              <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file.jpg" target="_blank" class="btn btn-primary">Download The Book</a>
+            </div>
+          </div>
+       <!--BASIC ROCK Svg-->
+       <!---BASIC ROCK Bython-->
+       <div class="card bg-dark col-lg-3 col-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin:7px;">
+        <a href="https://youtu.be/TOOGkMTZHgM" target="_blank">
+        <img src="https://i.ytimg.com/vi/TOOGkMTZHgM/mqdefault.jpg" class="card-img-top" alt=""/>
+        </a>
+        <div class="card-body text-light">
+          <h5 class="card-title">Basic Rock Bython</h5>
+          <p class="card-text">Basic Rock Bython From Zero to Hero</p>
+          <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file.jpg" target="_blank" class="btn btn-primary">Download The Book</a>
+        </div>
+      </div>
+   <!--BASIC ROCK Bython-->
+   <!---BASIC ROCK Ring-->
+   <div class="card bg-dark col-lg-3 col-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin:7px;">
+    <a href="https://youtu.be/rOwOEFTVvg0" target="_blank">
+    <img src="https://i.ytimg.com/vi/rOwOEFTVvg0/mqdefault.jpg" class="card-img-top" alt=""/>
+    </a>
+    <div class="card-body text-light">
+      <h5 class="card-title">Basic Rock Ring</h5>
+      <p class="card-text">Basic Rock Ring From Zero to Hero</p>
+      <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file.jpg" target="_blank" class="btn btn-primary">Download The Book</a>
+    </div>
+  </div>
+<!--BASIC ROCK Ring-->
+        </div>
+    </div>
+<!----BASIC ROCK-->
+<div class="fixedimg fixedimg2"></div>
+
+
+
+<hr class="my-4">
+<!---Thanks-->
+<h1 class="text-center text-light">Thanks For</h1>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+
+        <div class="card" style="width: 18rem; margin:10px;">
+            <img src="images/doc.jpg" class="card-img-top" alt="Doctor">
+            <div class="card-body">
+              <p class="card-text">DR.Dalida Ahmed</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; margin:10px;">
+            <img src="images/eng.jpg" class="card-img-top" alt="Engineer">
+            <div class="card-body">
+              <p class="card-text">Eng.Yassen Ahmed</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; margin:10px;">
+            <img src="images/tech.jpg" class="card-img-top" alt="Teacher">
+            <div class="card-body">
+              <p class="card-text">MS.Farida Ahmed</p>
+            </div>
+          </div>
+
+    </div>
+</div>
+<!--Thanks-->
+
+
+<hr class="my-4">
+<!---JOINN US-->
+<h1 class="Join-Us text-center text-light">Join Us</h1>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+
+        <div class="card bg-dark" style="width: 18rem; margin:10px;">
+            <div class="card-body text-light">
+              <h5 class="card-title">
+                  <img src="images/you.png" class="myicon" alt="Youtube">
+                  Subscribe Now
+                </h5>  
+              <a href="https://www.youtube.com/user/HassounaAcademy/" target="_blank" class="card-link">Go to the Link</a>
+            </div>
+          </div>
+
+          <div class="card bg-dark" style="width: 18rem; margin:10px;">
+            <div class="card-body text-light">
+              <h5 class="card-title">
+                  <img src="images/fb.png" class="myicon" alt="facebook">
+                  Follow Mr Hassona
+                </h5>  
+              <a href="https://www.facebook.com/Hassouna.Academy/" target="_blank" class="card-link">Go to the Link</a>
+            </div>
+          </div>
+
+          <div class="card bg-dark" style="width: 18rem; margin:10px;">
+            <div class="card-body text-light">
+              <h5 class="card-title">
+                  <img src="images/fb.png" class="myicon" alt="facebook">
+                  Please Join Academy
+                </h5>  
+              <a href="https://www.facebook.com/groups/hassouna.academy/" target="_blank" class="card-link">Go to the Link</a>
+            </div>
+          </div>
+
+          <div class="card bg-dark" style="width: 18rem; margin:10px;">
+            <div class="card-body text-light">
+              <h5 class="card-title">
+                <img src="images/fb.png" class="myicon" alt="facebook">
+                  Like The Page Now
+                </h5>  
+              <a href="https://www.facebook.com/groups/hassouna.academy/" target="_blank" class="card-link">Go to the Link</a>
+            </div>
+          </div>
+
+
+
+    </div>
+</div>
+<!---JOIN US-->
+
+<!----FOOTER-->
+<footer class="bg-dark text-light">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <hr class="border-top my-3">
+                <h5><img src="images/nav.jpg" class="myicon" alt="FOOTER"> Hassona Academey</h5>
+                <hr class="border-top my-3">
+                <p>Tel: 333-333-333</p>
+                <p>Address: Cairo, Egypt</p>
+                <p>Fax: 333-333-332</p>
+            </div>
+
+            <div class="col-md-4">
+                <hr class="border-top my-3">
+                <h5><img src="images/nav.jpg" class="myicon" alt="FOOTER"> Important Links</h5>
+                <hr class="border-top my-3">
+                <p><a href="https://www.facebook.com/groups/hassouna.academy/" target="_blank">Programming Program</a></p>
+                <p><a href="https://www.facebook.com/groups/hassouna.academy/" target="_blank">Answer Me Program</a></p>
+                <p><a href="https://www.facebook.com/groups/hassouna.academy/" target="_blank">Programming in one Video</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <hr class="border-top my-3">
+                <h5><img src="images/nav.jpg" class="myicon" alt="FOOTER"> Vission</h5>
+                <hr class="border-top my-3">
+                <p>Education is First</p>
+                <p>Education for all</p>
+                <p>Education is easy</p>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+   <div class="text-light text-center"> Copyright &copy; 2020 Hassouna Academy. All rights reserved </div>
+    <hr>
+</footer>
+<!---FOOTER-->
+<!--***************************************************************************************************************************************************************-->
+<!---MODAL-->
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1">Remember Me</label>
+                      </div>
+            
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+ <script src="jquery-3.5.1.slim.min.js"></script>
+ <script src="popper.min.js"></script>
+ <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+ <script>
+     function mycopy(name)
+     {
+         var range = document.createRange();
+         range.selectNode(document.getElementById(name));
+         window.getSelection().removeAllRanges(); //Clear currrent selection
+         window.getSelection().addRange(range);//To select Text
+         document.execCommand("copy");
+         window.getSelection().removeAllRanges(); //To deselect
+     }
+ </script>
+</body> 
+</html>
